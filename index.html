@@ -1,30 +1,337 @@
-﻿---
-layout: default
-title: YG's happy life
----
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<meta name="google-site-verification" content="jCGnekH58qf5dLBrLgcVfsyuU9ZJ6SB2dm2-7EiJvqo" />
+	<meta name="baidu-site-verification" content="CVx6XQIv2J" />
+	<meta name="author" content="夏小雪" />
+        <meta name="keywords" content="旅游, 游记, 摄影, 相片, 折腾, wordpress, 法律" />
+        <meta name="description" content="夏小雪的个人博客，各种游记，各种折腾笔记，学习心得，以及偶尔影音动漫推荐分享。" />
+        <meta name="baidu-site-verification" content="FVAYxTd5rl" />
+<meta name="baidu-site-verification" content="NbATrB9pFS" />	
+<title>花開未央</title>
+	<script src="http://sizheng.org/wp-content/themes/yukich/js/pace.min.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="http://sizheng.org/wp-content/themes/yukich/style.css" />
+	<link rel="shortcut icon" href="http://sizheng.org/wp-content/themes/yukich/favicon.ico" />
+	<script src="http://sizheng.org/wp-content/themes/yukich/js/jquery.min.js"></script>
+	<link href='//fonts.googleapis.com/css?family=Alegreya:400|Alegraya:400' rel='stylesheet' type='text/css'><script type="text/javascript">var _jf = _jf || [];_jf.push(['p','34498']);_jf.push(['_setFont','xingothic-sc-w4','css','.xingothic-sc-w4']);_jf.push(['_setFont','xingothic-sc-w4','alias','xingothic-sc']);_jf.push(['_setFont','xingothic-sc-w4','weight',400]);_jf.push(['_setFont','dasf5','css','.dasf5']);_jf.push(['_setFont','dasf5','alias','dasf5']);_jf.push(['_setFont','dasf5','english','Alegreya']);_jf.push(['_setFont','dasf5','weight',400]);_jf.push(['_setFont','dats4','css','.dats4']);_jf.push(['_setFont','dats4','alias','dats4']);_jf.push(['_setFont','dats4','english','Alegraya']);_jf.push(['_setFont','dats4','weight',400]);_jf.push(['_setFont','sourcehansans-sc-light','css','.sourcehansans-sc-light']);_jf.push(['_setFont','sourcehansans-sc-light','alias','sourcehansans-sc']);_jf.push(['_setFont','sourcehansans-sc-light','weight',300]);(function(f,q,c,h,e,i,r,d){var k=f._jf;if(k.constructor===Object){return}var l,t=q.getElementsByTagName("html")[0],a=function(u){for(var v in k){if(k[v][0]==u){if(false===k[v][1].call(k)){break}}}},j=/\S+/g,o=/[\t\r\n\f]/g,b=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,g="".trim,s=g&&!g.call("\uFEFF\xA0")?function(u){return u==null?"":g.call(u)}:function(u){return u==null?"":(u+"").replace(b,"")},m=function(y){var w,z,v,u,x=typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):" ";if(z){u=0;while((v=w[u++])){if(z.indexOf(" "+v+" ")<0){z+=v+" "}}t[c]=s(z)}}},p=function(y){var w,z,v,u,x=arguments.length===0||typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):"";if(z){u=0;while((v=w[u++])){while(z.indexOf(" "+v+" ")>=0){z=z.replace(" "+v+" "," ")}}t[c]=y?s(z):""}}},n;k.push(["_eventActived",function(){p(h);m(e)}]);k.push(["_eventInactived",function(){p(h);m(i)}]);k.addScript=n=function(u,A,w,C,E,B){E=E||function(){};B=B||function(){};var x=q.createElement("script"),z=q.getElementsByTagName("script")[0],v,y=false,D=function(){x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;a("_eventInactived");B()};if(C){v=setTimeout(function(){D()},C)}x.type=A||"text/javascript";x.async=w;x.onload=x.onreadystatechange=function(G,F){if(!y&&(!x.readyState||/loaded|complete/.test(x.readyState))){y=true;if(C){clearTimeout(v)}x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;if(!F){setTimeout(function(){E()},200)}}};x.onerror=function(H,G,F){if(C){clearTimeout(v)}D();return true};x.src=u;z.parentNode.insertBefore(x,z)};a("_eventPreload");m(h);n(r,"text/javascript",false,3000)})(this,this.document,"className","jf-loading","jf-active","jf-inactive","//d3gc6cgx8oosp4.cloudfront.net/js/stable/v/4.9.4/id/155489465702");</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<div id="home">
-  <h1>blog posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  <h1>使用Github的心得体会</h1>
-  <ul class="posts">
-    <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li></li>
-  </ul>
-  
+  ga('create', 'UA-6485603-2', 'auto');
+  ga('send', 'pageview');
 
-  <h1>web前段学习进度</h1>
-  <ul class="posts">
-    
-  </ul>
+</script>
+	<!-- AOPTbS86MLIo3TM36KbQo4N4OJE -->
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/sizheng.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='justifiedGalleryCSS-css'  href='http://sizheng.org/wp-content/plugins/flickr-photostream/justifiedgallery/css/justifiedGallery.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='swipeboxCSS-css'  href='http://sizheng.org/wp-content/plugins/flickr-photostream/swipebox/css/swipebox.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://sizheng.org/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://sizheng.org/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://sizheng.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-content/plugins/flickr-photostream/justifiedgallery/js/jquery.justifiedGallery.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-content/plugins/flickr-photostream/swipebox/js/jquery.swipebox.min.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://sizheng.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sizheng.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sizheng.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
 
-  <h1>日常生活</h1>
-  <ul class="posts">
-    
-  </ul>
+		<link rel="stylesheet" href="http://sizheng.org/wp-content/plugins/HighslideImage/highslide.css" type="text/css" />
+		<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://sizheng.org/wp-content/plugins/HighslideImage/highslide-ie6.css" />
+		<![endif]-->
 
-  
-</div>
+<script type="text/javascript" src="http://sizheng.org/wp-content/plugins/HighslideImage/js/highslide.packed.js"></script>
+
+
+<script type="text/javascript">
+	hs.graphicsDir =  "http://sizheng.org/wp-content/plugins/HighslideImage/graphics/";
+	hs.outlineType = "rounded-white";
+	hs.captionEval = "this.a.title";
+	hs.showCredits = false;
+</script>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="花開未央" />
+<meta property="og:description" content="夏小雪的星球漫步" />
+<meta property="og:url" content="http://sizheng.org/" />
+<meta property="og:site_name" content="花開未央" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="twitter:site" content="@alan_blake" />
+</head>
+<body>
+	<div id="main">
+		<div id="top">
+			<nav>
+				<ul>
+					<li class="btn1"><a href="http://sizheng.org/category/travel/ " class="navitem"><span class="ir">Travel</span></a></li>
+					<li class="btn2"><a href="http://sizheng.org/category/share/" class="navitem"><span class="ir">Share</span></a></li>
+					<li class="btn3"><a href="http://sizheng.org/category/log/" class="navitem"><span class="ir">Memo</span></a></li>
+					<li class="btn4"><a href="http://sizheng.org/archives/" class="navitem"><span class="ir">Archive</span></a></li>
+					<li class="btn5"><a href="http://sizheng.org/gallery/" class="navitem"><span class="ir">Gallery</span></a></li>
+					<li class="btn6"><a href="http://sizheng.org/video/" class="navitem"><span class="ir">Video</span></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="l-post">
+			<div id="basic" class="frame">
+    		<ul class="slidee">
+    					    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/xiamen-again/">
+    					<img width="347" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/12/L0170035.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="L0170035" srcset="http://sizheng.org/wp-content/uploads/2015/12/L0170035-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/12/L0170035-768x576.jpg 768w, http://sizheng.org/wp-content/uploads/2015/12/L0170035-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/12/L0170035.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /><noscript><img width="347" height="260" src="http://sizheng.org/wp-content/uploads/2015/12/L0170035.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="L0170035" srcset="http://sizheng.org/wp-content/uploads/2015/12/L0170035-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/12/L0170035-768x576.jpg 768w, http://sizheng.org/wp-content/uploads/2015/12/L0170035-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/12/L0170035.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">复游嘉禾屿</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年12月13日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/hangouts-at-summer-palace/">
+    					<img width="347" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/12/L0180024.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="L0180024" srcset="http://sizheng.org/wp-content/uploads/2015/12/L0180024-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/12/L0180024-768x576.jpg 768w, http://sizheng.org/wp-content/uploads/2015/12/L0180024-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/12/L0180024.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /><noscript><img width="347" height="260" src="http://sizheng.org/wp-content/uploads/2015/12/L0180024.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="L0180024" srcset="http://sizheng.org/wp-content/uploads/2015/12/L0180024-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/12/L0180024-768x576.jpg 768w, http://sizheng.org/wp-content/uploads/2015/12/L0180024-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/12/L0180024.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">偷得浮生半日闲，趣游京城后花园</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年12月11日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/beautiful-south-border-of-taiwan/">
+    					<img width="462" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/11/20151007-01.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151007-01" srcset="http://sizheng.org/wp-content/uploads/2015/11/20151007-01-520x293.jpg 520w, http://sizheng.org/wp-content/uploads/2015/11/20151007-01-1024x576.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/11/20151007-01.jpg 1920w" sizes="(max-width: 462px) 100vw, 462px" /><noscript><img width="462" height="260" src="http://sizheng.org/wp-content/uploads/2015/11/20151007-01.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151007-01" srcset="http://sizheng.org/wp-content/uploads/2015/11/20151007-01-520x293.jpg 520w, http://sizheng.org/wp-content/uploads/2015/11/20151007-01-1024x576.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/11/20151007-01.jpg 1920w" sizes="(max-width: 462px) 100vw, 462px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">国境之南——恒春·垦丁</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年12月10日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/blue-sanasay/">
+    					<img width="347" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/10/20151005-14.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151005-14" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151005-14-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151005-14-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151005-14.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /><noscript><img width="347" height="260" src="http://sizheng.org/wp-content/uploads/2015/10/20151005-14.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151005-14" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151005-14-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151005-14-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151005-14.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">深蓝火烧岛</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年10月25日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/leisurely-tour-in-hualian-2/">
+    					<img width="347" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/10/20151003-07.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151003-07" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151003-07-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151003-07-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151003-07.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /><noscript><img width="347" height="260" src="http://sizheng.org/wp-content/uploads/2015/10/20151003-07.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151003-07" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151003-07-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151003-07-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151003-07.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">花蓮遊山水，悠然忘世故</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年10月18日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/leisurely-tour-in-hualian-1/">
+    					<img width="347" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2015/10/20151002-29.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151002-29" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151002-29-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151002-29-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151002-29.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /><noscript><img width="347" height="260" src="http://sizheng.org/wp-content/uploads/2015/10/20151002-29.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="20151002-29" srcset="http://sizheng.org/wp-content/uploads/2015/10/20151002-29-520x390.jpg 520w, http://sizheng.org/wp-content/uploads/2015/10/20151002-29-1024x768.jpg 1024w, http://sizheng.org/wp-content/uploads/2015/10/20151002-29.jpg 1440w" sizes="(max-width: 347px) 100vw, 347px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">穿越峡谷冲向大海——花莲太鲁阁</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2015年10月15日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/travel-in-tainan-1/">
+    					<img width="391" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2014/11/DSC03467.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="DSC03467" srcset="http://sizheng.org/wp-content/uploads/2014/11/DSC03467-300x199.jpg 300w, http://sizheng.org/wp-content/uploads/2014/11/DSC03467-1024x680.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/11/DSC03467.jpg 1204w" sizes="(max-width: 391px) 100vw, 391px" /><noscript><img width="391" height="260" src="http://sizheng.org/wp-content/uploads/2014/11/DSC03467.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="DSC03467" srcset="http://sizheng.org/wp-content/uploads/2014/11/DSC03467-300x199.jpg 300w, http://sizheng.org/wp-content/uploads/2014/11/DSC03467-1024x680.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/11/DSC03467.jpg 1204w" sizes="(max-width: 391px) 100vw, 391px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">游台南，管中窥视府城文化风景</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2014年11月5日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/two-days-travel-in-lishui-zhejiang/">
+    					<img width="389" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2014/04/P1120707.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="P1120707" srcset="http://sizheng.org/wp-content/uploads/2014/04/P1120707-1024x684.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/04/P1120707.jpg 1440w" sizes="(max-width: 389px) 100vw, 389px" /><noscript><img width="389" height="260" src="http://sizheng.org/wp-content/uploads/2014/04/P1120707.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="P1120707" srcset="http://sizheng.org/wp-content/uploads/2014/04/P1120707-1024x684.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/04/P1120707.jpg 1440w" sizes="(max-width: 389px) 100vw, 389px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">浙江丽水探春二日游</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2014年04月27日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/nanhua-temple/">
+    					<img width="463" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="南华禅寺" srcset="http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1-300x169.jpg 300w, http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1-1024x575.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1.jpg 4000w" sizes="(max-width: 463px) 100vw, 463px" /><noscript><img width="463" height="260" src="http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="南华禅寺" srcset="http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1-300x169.jpg 300w, http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1-1024x575.jpg 1024w, http://sizheng.org/wp-content/uploads/2014/02/2014-01-31-05.22.41-1.jpg 4000w" sizes="(max-width: 463px) 100vw, 463px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">禅宗祖庭南华寺</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2014年02月17日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/travel-in-taiwan-3/">
+    					<img width="391" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="彰化扇形车库" srcset="http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b-300x200.jpg 300w, http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b.jpg 1024w" sizes="(max-width: 391px) 100vw, 391px" /><noscript><img width="391" height="260" src="http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="彰化扇形车库" srcset="http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b-300x200.jpg 300w, http://sizheng.org/wp-content/uploads/2013/07/8748932159_71e3f6b846_b.jpg 1024w" sizes="(max-width: 391px) 100vw, 391px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">悠游台湾之伪铁路迷</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2013年07月20日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/travel-in-taiwan-2/">
+    					<img width="391" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="日月潭" srcset="http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b-300x200.jpg 300w, http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b.jpg 1024w" sizes="(max-width: 391px) 100vw, 391px" /><noscript><img width="391" height="260" src="http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="日月潭" srcset="http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b-300x200.jpg 300w, http://sizheng.org/wp-content/uploads/2013/05/8746130535_1b775d2ab4_b.jpg 1024w" sizes="(max-width: 391px) 100vw, 391px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">悠游台湾之日月光华</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2013年05月23日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    		    			<li class="grid">
+    				<figure class="grid-effect">
+						<a href="http://sizheng.org/travel/travel-in-taiwan-1/">
+    					<img width="391" height="260" src="http://sizheng.org/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="阿里山森林" srcset="http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01-300x199.jpg 300w, http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01-1024x681.jpg 1024w, http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01.jpg 1440w" sizes="(max-width: 391px) 100vw, 391px" /><noscript><img width="391" height="260" src="http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01.jpg" class="attachment-Portrait size-Portrait wp-post-image" alt="阿里山森林" srcset="http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01-300x199.jpg 300w, http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01-1024x681.jpg 1024w, http://sizheng.org/wp-content/uploads/2013/05/DSC00080_01.jpg 1440w" sizes="(max-width: 391px) 100vw, 391px" /></noscript></a>
+    					<figcaption>
+    						<h2 class="xingothic-sc-w4">悠游台湾之迷雾森林</h2>
+    						<p class="description">Travel Around the World.
+    							<br>
+							2013年05月19日    						</p>
+    						
+    					</figcaption>
+    					<span></span>
+    				</figure>
+    			</li>
+    					</ul>
+			</div>
+			<div class="scrollbar">
+				<div class="handle" style="transform: translateZ(0px) translateX(0px); width: 173px;">
+					<div class="mousearea"></div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<div id="bottomcontent">
+			<div id="search-box">
+				<form role="search" action="http://sizheng.org/" method="get">
+	<input type="text" name="s" id="search" class="searchinput" value="" />
+	<button type="submit" class="searchbtn"><img src="http://sizheng.org/wp-content/themes/yukich/images/footer_search_go.png" title="Search" /></button>
+</form>			</div>
+		<div id="sns">
+			<a href="https://www.flickr.com/photos/alan_blake/"><img src="http://sizheng.org/wp-content/themes/yukich/images/icon_Flicker.png" alt=""></a>
+			<a href="https://plus.google.com/u/0/b/115564164615966508023/115564164615966508023/posts"><img src="http://sizheng.org/wp-content/themes/yukich/images/icon_Gplus.png" alt=""></a>
+			<a href="https://www.facebook.com/xiaoxuecn"><img src="http://sizheng.org/wp-content/themes/yukich/images/icon_FB.png" alt=""></a>
+			<a href="http://twitter.com/alan_blake"><img src="http://sizheng.org/wp-content/themes/yukich/images/icon_twiiter.png" alt=""></a>
+			<a href="mailto:iam@sizheng.org"><img src="http://sizheng.org/wp-content/themes/yukich/images/icon_mail.png" alt=""></a>
+		</div>
+			</div>
+		</div>
+	</div> <!-- end of #main -->
+	<div id="copyright">
+				<span class="left">Copyright &copy; sizheng.org 2015. All rights reserved.</span>
+				<span class="right">Design by OTARU & YUKI.</span>
+	</div>
+	<script src="http://sizheng.org/wp-content/themes/yukich/js/my.js"></script>
+	<script src="http://sizheng.org/wp-content/themes/yukich/js/sly.min.js"></script>
+	<script src="http://sizheng.org/wp-content/themes/yukich/js/horizontal.js"></script>
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'blogsz';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201617'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-content/plugins/lazy-load/js/jquery.sonar.min.js?ver=0.6'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-content/plugins/lazy-load/js/lazy-load.js?ver=0.6'></script>
+<script type='text/javascript' src='http://sizheng.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201617.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'60145935',post:'0',tz:'8',srv:'sizheng.org'} ]);
+	_stq.push([ 'clickTrackerInit', '60145935', '0' ]);
+</script>
+</body>
+</html>
